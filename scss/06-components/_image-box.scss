@@ -1,0 +1,48 @@
+@use '../02-tools/' as *;
+
+.image-box {
+
+    border-radius: .6rem;
+    box-shadow: 0px 0px 15px gray;
+
+    &:hover {
+      
+        box-shadow: 0px 0px 25px gray;
+        
+    }
+
+    &__image {
+        background: url('../assets/img/box1.jpg') center/cover;
+        height: 22rem;
+        display: block;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+        border-bottom-left-radius: .6rem;
+        border-bottom-right-radius: .6rem;
+        
+        &--next {
+            background: url('../assets/img/box2.jpg') center/cover;
+        }
+        &--next2 {
+            background: url('../assets/img/box3.jpg') center/cover;
+        }
+        &--next3 {
+            background: url('../assets/img/box4.jpg') center/cover;
+        }
+
+        @include medium {
+            height: 16rem;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        padding: 2rem;
+        font-size: 1.6rem;
+        cursor: pointer;
+        font-family: Roboto, sans-serif;
+        background-color: white;
+        
+    }
+
+}

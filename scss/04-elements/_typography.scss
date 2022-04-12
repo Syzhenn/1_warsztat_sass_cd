@@ -6,4 +6,20 @@ p {
     line-height: 2.8rem;
     padding: $grid-base;
     margin-top: $grid-base * 1.5;
+    width: 70%;
 }
+
+.paragraph {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    // background-color: rgb(219, 219, 219);
+    width: 70%;
+    color: black;
+    
+}
+
+// .logo {
+//     position: absolute;
+//     top: 110%;
+//     left: 70%;
+// }

@@ -3,8 +3,9 @@
 
 .col {
 
-    width: 100%;
+    // width: 100%;
     padding: 0 $gutter $gutter $gutter;
+    // font-family: 'Roboto', sans-serif;
 
     &--md50 {
         @include medium {
@@ -47,5 +48,10 @@
             max-width: 25%;
         }
     }
-
+    &__map {
+        width: 100%;
+    }
+    &__form {
+        width: 100%;
+    }
 }
